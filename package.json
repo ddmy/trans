@@ -1,0 +1,20 @@
+{
+  "name": "trans",
+  "version": "1.0.0",
+  "description": "目录文件整合工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "trans": "trans-cli"
+  },
+  "author": "Yijio",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.24",
+    "jsdom": "^16.6.0",
+    "shelljs": "^0.8.4",
+    "yargs": "^17.0.1"
+  }
+}

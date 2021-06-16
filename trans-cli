@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+console.log('trans start')
+
+// const shelljs = require('shelljs')
+// shelljs.exec(`echo 参数：${process.argv[2]}`)
+
+const transMain = require('./transDoc')
+
+const yar = require('yargs').alias('T', 'type').alias('V', 'version')
+const { argv } = yar
+
+if (argv.type) {
+  console.log('处理文件')
+  transMain()
+}
